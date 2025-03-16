@@ -1,10 +1,9 @@
-import SnowplowChart from "../components/SnowplowChart";
-
-export default function Dashboard() {
+export default function DashboardPage() {
   return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
-      <SnowplowChart />
+    <div>
+      <h1 className="text-3xl font-bold">Dashboard</h1>
+      <p className="text-gray-600 mt-2">This is a mockup of the dashboard.</p>
     </div>
   );
 }
+
